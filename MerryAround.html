@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MerryAround.html</title>
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<style>
+	body{
+		padding-top:60px;
+	}
+	.gray :hover{
+		opacity: 0.9;
+	}
+	.gray img{
+		height:400px !important;
+	}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+   <!-- 타이틀 이미지 정가운데 위치하도록  -->
+	<div class="row">
+		<div class="col-xs-offset-4 col-xs-6">
+				<h1><img src="images/title.png"></h1>
+		</div>
+	</div>	
+
+	<div class="navbar navbar-default navbar-fixed-top">  <!-- scroll해도 반응하지 않도록 맨위에 고정.  -->
+		<div class="container">
+			<a href="#" class="navbar-brand">MERRY LABEL</a>
+
+			<div class="nav navbar-nav dropdown">
+				<a class="navbar-link navbar-text dropdown-toggle " data-toggle="dropdown" href="#">COUPLE </a>
+					<ul class="dropdown-menu">
+						<li><a hreF="#"> COUPLE TOP</a></li>
+						<li><a href="#" > WOMAN</a></li>
+						<li><a href="#" >MANS BOTTOMS</a></li>
+					</ul>			
+			</div>
+			
+ 			<div class="nav navbar-nav dropdown">
+
+				<a class="navbar-link navbar-text dropdown-toggle" data-toggle="dropdown" href="#">OUTER</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">JUMPER</a></li>
+						<li><a href="#">MUSTANG</a></li>
+						<li><a href="#">COAT</a></li>
+						<li><a href="#">JACKET</a></li>
+					</ul>		
+			</div>
+			<div class="nav navbar-nav dropdown">
+				<a class="navbar-link navbar-text dropdown-toggle" data-toggle="dropdown" href="#">KNIT</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">CARDIGAN</a></li>
+						<li><a href="#">VEST</a></li>
+						<li><a href="#">KNIT</a></li>
+					</ul>
+					
+			</div>
+			<div class="nav navbar-nav dropdown">
+				<a class="navbar-link navbar-text dropdown-toggle" data-toggle="dropdown" href="#">TOP</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">TEE</a></li>
+					<li><a href="#">STRIPE</a></li>
+					<li><a href="#">HOODY</a></li>
+				</ul>
+				
+			</div>
+			<div class="nav navbar-nav dropdown">
+				<a class="navbar-link navbar-text dropdown-toggle" data-toggle="dropdown" href="#">BLOUSE.SHIRTS</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">BLOUSE</a></li>
+					<li><a href="#">SHIRTS</a></li>
+				</ul>
+				
+			</div>
+			<div class="nav navbar-nav dropdown">
+				<a class="navbar-link navbar-text dropdown-toggle" data-toggle="dropdown" href="#">BOTTOM</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">SKINNY</a></li>
+					<li><a href="#">SLACKS</a></li>
+					<li><a href="#">BOOTSCUT</a></li>
+					<li><a href="#">SHORTS</a></li>
+				</ul>
+				
+			</div>
+		
+			<div class="nav navbar-nav dropdown">
+				<a class="navbar-link navbar-text dropdown-toggle" data-toggle="dropdown" href="#">DRESS</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">MINI</a></li>
+					<li><a href="#">LONG</a></li>
+				</ul>
+			</div>
+			<a class="navbar-link navbar-text pull-right" href="#">Email us</a>
+		</div>
+	</div>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+		<!-- Carousel 하단의 동그란 nav 요소  -->
+		<!-- <ol class="carousel-indicators"> -->
+			<!-- data-target="Carousel 전체의 선택자" 
+			data-slide-to="컨텐츠 인덱스" -->
+			<!-- <li data-target="#myCarousel" data-slide-to="0"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol> -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/clothes1.png"/>
+				<div class="carousel-caption">
+					<h3>Best 1 </h3>
+					<p>바드 라운드(knit)(울70%) </p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/clothes2.png"/>
+				<div class="carousel-caption">
+					<h3>Best 2</h3>
+					<p> 모나 체크 (ops)</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/clothes3.png"/>
+				<div class="carousel-caption">
+					<h3>Best 3</h3>
+					<p>레떼체크(jk)(울 20%) *세트로 구매 가능해요 :-)</p>
+				</div>
+			</div>
+		</div>
+		<!-- 이전, 다음 control UI -->
+		<a href="#myCarousel" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">이전</span>
+		</a>
+		<a href="#myCarousel" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">다음</span>
+		</a>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-offset-5 col-xs-6">
+				<h3>NEW ARRIVALS</h1>
+		</div>
+	</div>	
+
+	<div class="gray row">
+		<div id="clothes1-1" class="col-xs-4 carousel slide" data-ride="carousel" data-interval="2000" >
+	
+				<!-- <ol class="carousel-indicators">
+		
+					<li data-target="#clothes1-1" data-slide-to="0"></li>
+					<li data-target="#clothes1-1" data-slide-to="1"></li>
+				</ol> -->
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/1_1.png"/>
+				</div>
+				<div class="item">
+					<img src="images/1_2.png"/>
+				</div>
+			</div>
+		
+			
+		</div>
+
+
+		<div id="#clothes1-2" class="col-xs-4 carousel slide" data-ride="carousel" data-interval="2000">
+	
+				<!-- <ol class="carousel-indicators">
+		
+					<li data-target="#clothes1-2" data-slide-to="0"></li>
+					<li data-target="#clothes1-2" data-slide-to="1"></li>
+				</ol> -->
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/2_1.png"/>
+				</div>
+				<div class="item">
+					<img src="images/2_2.png"/>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="#clothes1-3" class="col-xs-4 carousel slide" data-ride="carousel" data-interval="2000">
+	
+				<!-- <ol class="carousel-indicators">
+		
+					<li data-target="#clothes1-3" data-slide-to="0"></li>
+					<li data-target="#clothes1-3" data-slide-to="1"></li>
+				</ol> -->
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/3_1.png"/>
+				</div>
+				<div class="item">
+					<img src="images/3_2.png"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+
+	<div class="gray row">
+		<div class="col-xs-4">
+			<img class="img-responsive " src="images/4_1.png"/>
+		</div>
+		<div class="col-xs-4">
+			<img class="img-responsive " src="images/5_1.png"/>
+		</div>
+		<div class="col-xs-4">
+			<img class="img-responsive " src="images/6_1.png"/>
+		</div>
+	</div>
+		
+	</div>
+	
+	<br/><br/>
+
+
+
+	<div class=" navbar navbar-inverse ">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<p class="navbar-text">COPYRIGHT (주)선데이브런치</p>
+				</div>
+				<div class="col-xs-4">
+					<p class="navbar-text">1577-1847</p>
+					<p class="navbar-text"> mon-fri am11:00 - pm17:00 / break time. pm13:00 - pm14:00
+ sat,sun,red day off</p>
+				</div>
+				<div class="col-xs-4">
+					<p class="navbar-text">예금주: (주)선데이브런치</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>	
+<script>
+
+	$("#clothes1-1").on("mosemove",function(){
+		console.log("AA");
+
+
+	});
+	$(window).on("scroll", function(){
+		console.log("scroll!");
+		var scrollTop=$(window).scrollTop(); //위쪽으로 스크롤된 길이 구하기 
+		var windowHeight=$(window).height(); //window 의 높이 구하기 
+		var documentHeight=$(document).height(); //document 의 높이 구하기 
+		var isBottom= documentHeight== scrollTop+windowHeight;
+		if(isBottom)
+		{
+			// $("#hi")..appendTo("body");
+		}
+	});
+
+
+</script>
+</body>
+</html>
